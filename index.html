@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Personal Portfolio</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/db91688598.js" crossorigin="anonymous"></script>
+
+    </head>
+<!-- -----------------Header---------------- -->
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <!-- <img src="images/logo.jpeg", class="logo"> -->
+                    <h1>Port<span>folio</span></h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#ACHIEVEMENTS">Achievements</a></li>
+                        <li><a href="#mywork">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+
+                </nav>
+                <div class="header-text">
+                    <h1>HI I AM<br> <span>ARAVIND REDDY</span> </h1>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+
+    <!-- -----------------About----------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="obout-col-1">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a dedicated and enthusiastic individual currently pursuing a Bachelor's degree in Technology (B.Tech). With a strong passion for problem-solving and a relentless drive to enhance my skills, I am eager to share a little about myself.
+
+                            Being a B.Tech student, I am immersed in a world of technical knowledge and innovation. I have always been captivated by the intricate challenges that arise in the realms of science and technology. Whether it's tackling complex coding issues, devising innovative solutions, or analyzing intricate systems, I find immense satisfaction in deciphering problems and developing strategies to overcome them.
+                            
+                            My commitment to constant growth is reflected in my openness to new opportunities. I firmly believe that learning is a lifelong journey, and I am always eager to acquire new skills, explore novel concepts, and embrace emerging technologies. This attitude not only helps me stay ahead in a rapidly evolving tech landscape but also fuels my passion for problem-solving.
+                            
+                            One of the things that sets me apart is my dedication to collaborative work. I thoroughly enjoy engaging with like-minded individuals, brainstorming ideas, and collectively arriving at solutions that drive progress. I value the power of teamwork and believe that diverse perspectives can often lead to breakthroughs that wouldn't be possible otherwise.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                                <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('Internships')">Internships</p>
+                                <p class="tab-links" onclick="opentab('Relevent-subjects')">Subjects</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="Education">
+                                <ul>
+                                    <li><span>B.Tech. (ECE) - 8.70 CGPA</span>
+                                        <br>B V Raju Institute of Technology<br>
+                                        2020-currently</li>
+                                    <li><span>Higher Secondary - 96.3%</span>
+                                        <br>Telangana Board of Intermediate Education<br>
+                                        2018-2020
+                                        </li>
+                                    <li><span>Secondary - 9.8 GPA</span>
+                                        <br>Telangana State Board of Secondary Education<br>
+                                        2017-2018</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Skills">
+                                <ul>
+                                    <li>Java Programming</li>
+                                    <li>Data Structures and Algorithms<br></li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Internships">
+                                <ul>
+                                    <li><span>Virtual Internship</span><br>successfully completed 10 weeks AWS cloud Virtual Internship</li>
+                                    <li>Duration: May-July 2023</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Relevent-subjects">
+                                <ul>
+                                    
+                                    <li>Operating Systems</li>
+                                    <li>Computer Networks</li>
+                                    <li>Machine Learning</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- -----------------Achievements-------------- -->
+        <div id="ACHIEVEMENTS">
+            <div class="container">
+                <h1 class="sub-title">My Achievements</h1>
+                <div class="projects-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>PrepSat</h2>
+                        <p>Secured 217 rank among 90678 participants in PrepSAT(Hiring
+                            Jobathon) by PrepInsta.</p>
+                        <a href="https://drive.google.com/file/d/1vTeX9bgz5-Tg-3jdf6VMXHOtrI89F_Uk/view?usp=drive_link">see more</a>
+                        
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-book"></i>
+                        <h2>GeeksforGeeks</h2>
+                        <p>Successfully completed the course on Complete Interview Preparation.</p>
+                        <a href="https://drive.google.com/file/d/1ovIUVsqwQ0_x-HaAVUsBTpKhzTNMtrJ6/view?usp=drive_link">see more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-trophy"></i>
+                        <h2>Hackathon</h2>
+                        <p>Stood 1st in Business Model Canvas Championship conducted
+                            by Institutes Innovation Council,BVRIT.</p>
+                        <a href="https://drive.google.com/file/d/1COpkD-9hFJbF97mPNVYxPEtEUYI9EVA3/view?usp=share_link">see more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- --------------------MyWork------------------ -->
+        <div id="mywork">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/pexels-cottonbro-studio-5473311.jpg">;
+                        <div class="layer">
+                            <h3>Student Exam Performance Prediction</h3>
+                            <p> This project involved analyzing how various factors,
+                                such as Gender, Ethnicity, Parental level of education,
+                                Lunch, and Test preparation course, affect student performance in tests.</p>
+                            <a href="https://github.com/Aravind2016/mlproject"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/pexels-lisa-fotios-16129688.jpg">;
+                        <div class="layer">
+                            <h3>CodePlayer</h3>
+                            <p> TThis project is a web Application which is used to write
+                                HTML,CSS,JavaScript code to create a web application.
+                                It consists of four sections and they are HTML column,
+                                CSS column, JavaScript column and Output column.</p>
+                            <a href="https://github.com/Aravind2016/Code-Player"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/pexels-pavel-danilyuk-8294554.jpg">;
+                        <div class="layer">
+                            <h3>Student Exam Performance Prediction</h3>
+                            <p> This project involved analyzing how various factors,
+                                such as Gender, Ethnicity, Parental level of education,
+                                Lunch, and Test preparation course, affect student performance in tests.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- ----------------------contactme-------------- -->
+        <div id="contact">
+            <div class="conteiner">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="cnt-me">Contact me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>aravindbobbala@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+91 9014898170</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/Aravind2016"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/bobbala-aravind-2a2065251"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/Aravind87514921?t=cq3OrvXMajk7m6LRke6lEw&s=09"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://instagram.com/aravind_._reddy?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="insta"><i class="fa-brands fa-square-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <div id="msg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemen=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemen.style.right="0";
+            }
+            function closemenu(){
+                sidemen.style.right="-250px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxoZiDOC6LFSwYIfJmQr4vpwpQ98S3499VfAWEtHDtwd5YsYkC1X1yl2La908qr1VZ6/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully";
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
